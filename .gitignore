@@ -1,5 +1,52 @@
-*.dat
-*.jks
-V2rayNG/app/release/output.json
+```
+# Build artifacts
+build/
+dist/
+
+# Dependencies
+node_modules/
+vendor/
+
+# Go specific
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Temp files
+*.tmp
+*.swp
+*~
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
 .idea/
-.gradle/
+*.swp
+*.swo
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Python cache (if any Python files present)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+```
